@@ -1,27 +1,44 @@
+# ======================
+# PHP / XAMPP
+# ======================
+
 # Dependencias
 /vendor/
 
-# Composer
-composer.lock
-
-# Archivos de entorno
+# Variables de entorno
 .env
 .env.*
 
 # Logs
 *.log
 
-# Cache
+# Cache y temporales
 /tmp/
-.cache/
+/cache/
 
+# Archivos de sesión (si existen)
+sessions/
+
+# ======================
 # IDEs
+# ======================
 .vscode/
 .idea/
 
+# ======================
 # Sistema operativo
-.DS_Store
+# ======================
 Thumbs.db
+.DS_Store
 
-# PHPUnit
-.phpunit.result.cache
+# ======================
+# Apache / XAMPP
+# ======================
+*.pid
+*.sock
+
+# ======================
+# Archivos generados
+# ======================
+*.bak
+*.swp
