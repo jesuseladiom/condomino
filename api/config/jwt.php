@@ -1,0 +1,4 @@
+<?php
+$JWT_SECRET = "CLAVE_SUPER_SECRETA_CAMBIALA_123"; 
+$JWT_EXPIRE = 60 * 60 * 24; // 24 horas
+?>
